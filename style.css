@@ -1,0 +1,99 @@
+*{
+    margin: 0;/* zarando a marigin do site */
+    padding: 0;/* zerando o preenchimento*/
+    list-style: none;/* removendo os estilos de listas */
+    text-decoration: none; /* tirando a decoraçao do texto */
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #330a04;
+    color: white;
+    text-align: center;
+}
+header h1 span{
+    color: #b32900;
+}
+header h1{
+    color:#de8531;
+}
+header img{
+    width: 70px;
+}
+header ul {
+    display: flex;
+}
+header ul li{
+    margin-right: 20px;
+    color: white;
+}
+.section1{
+    background-image: url(img/pizza-2068272_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    text-align: center;
+    color: bisque;
+}
+.section1 h2{
+    margin-left: 70%;
+    font-size: 60px;
+}
+.section1 p{
+    margin-left: 70%;
+    font-size: 25px;
+}
+.section1 h2{
+    color: #6c1305;
+}
+.section2{
+    background-color: #330a04;
+    padding: 150px;
+}
+.pai1{
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+.pai2{
+
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: space-evenly;
+}
+
+.pai1 div{
+    width: 190px;/* largura da caixa */
+    height: 270px;/* altura da caixa */
+    border-radius: 20px;/* curva da quina da caixa */
+    background-repeat: no-repeat;/* configurada para a imagem nao se repitir */
+    background-size: cover;/* para a imagem utilizar a caixa inteira */
+    background-position: center; /* centralizada a imagem na caixa */
+}
+.pai2 div{
+    width: 190px;/* largura da caixa */
+    height: 270px;/* altura da caixa */
+    border-radius: 20px;/* curva da quina da caixa */
+    background-repeat: no-repeat;/* configurada para a imagem nao se repitir */
+    background-size: cover;/* para a imagem utilizar a caixa inteira */
+    background-position: center; /* centralizada a imagem na caixa */
+}
+#filho1{
+    background-image: url(img/pizza1.png);
+}
+#filho2{
+    background-image: url(img/pizza2.jpg);
+}
+#filho3{
+    background-image: url(img/pizza3.jpg);
+}
+#filho4{
+    background-image: url(img/pizza4.jpg);
+}
+#filho5{
+    background-image: url(img/pizza5.jpg);
+}
+#filho6{
+    background-image: url(img/pizza6.jpg);
+}
