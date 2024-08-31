@@ -10,6 +10,7 @@ header{
     background-color: #330a04;
     color: white;
     text-align: center;
+    align-items: center;
 }
 header h1 span{
     color: #b32900;
@@ -26,6 +27,10 @@ header ul {
 header ul li{
     margin-right: 20px;
     color: white;
+}
+header ul li:hover{
+    color: brown;
+    transition: 1s;
 }
 .section1{
     background-image: url(img/pizza-2068272_1280.jpg);
@@ -96,4 +101,95 @@ header ul li{
 }
 #filho6{
     background-image: url(img/pizza6.jpg);
+}
+#filho1:hover{
+    transition: 1s;
+    width: 210px;
+    height: 290px;
+}
+#filho2:hover{
+    transition: 1s;
+    width: 210px;
+    height: 290px;
+}
+#filho3:hover{
+    transition: 1s;
+    width: 210px;
+    height: 290px;
+}
+#filho4:hover{
+    transition: 1s;
+    width: 210px;
+    height: 290px;
+}
+#filho5:hover{
+    transition: 1s;
+    width: 210px;
+    height: 290px;
+}
+#filho6:hover{
+    transition: 1s;
+    width: 210px;
+    height: 290px;
+}
+.bebidas {
+    background-image: url(img/bebida.jpg);
+    padding: 350px;
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.bebidas p{
+    font-size: 20px;
+}
+.localizacao{
+    padding: 160px;
+    background-color: #6c1305;
+    display: flex;
+    color: white;
+}
+.localizacao #text{
+    margin-left: 30px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+.localizacao #title{
+    margin-left: 30px;
+    font-size: 23px;
+}
+footer{
+    padding: 100px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content: space-between;
+}
+footer i{
+    color: rgb(255, 255, 255);/* cores do icone */
+    font-size: 50px;/* tamanho do icone */
+    background-color: gray;/* cor de fundo do elemento */
+    padding: 10px;/* respiro/preenchimento da cor de fundo */
+    border-radius: 10px;/* arredondamento da caoxa */
+    margin-right: 10px;
+}
+footer div p{
+    color: gray;
+}
+footer div h4{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* aplicando efeito ao passar o mouse */
+#insta:hover{
+    background-color: #7804a1;
+    transition: 1s;
+}
+
+#whats:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
 }
