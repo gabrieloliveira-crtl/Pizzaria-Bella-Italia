@@ -4,6 +4,9 @@
     list-style: none;/* removendo os estilos de listas */
     text-decoration: none; /* tirando a decoraçao do texto */
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     display: flex;
     justify-content: space-evenly;
