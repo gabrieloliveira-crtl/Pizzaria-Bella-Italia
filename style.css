@@ -78,62 +78,117 @@ header ul li:hover{
     background-repeat: no-repeat;/* configurada para a imagem nao se repitir */
     background-size: cover;/* para a imagem utilizar a caixa inteira */
     background-position: center; /* centralizada a imagem na caixa */
+    box-shadow: 20px 15px 30px brown;
 }
 .pai2 div{
+    margin-top: 20px;
     width: 190px;/* largura da caixa */
     height: 270px;/* altura da caixa */
     border-radius: 20px;/* curva da quina da caixa */
     background-repeat: no-repeat;/* configurada para a imagem nao se repitir */
     background-size: cover;/* para a imagem utilizar a caixa inteira */
     background-position: center; /* centralizada a imagem na caixa */
+    box-shadow: 20px 15px 30px brown;/* sombra externa da caixa primeiro valor eixo horizontal, segundo valor, ultimno valor exposição da sombra e os 2 primeiro valores podem ser negativados */ 
+    
+}
+#filho1 p {
+    text-shadow: 20px 15px 30px black;
+    margin-top: 270px;
+    color: white;
+    font-size: 30px;
+    gap: 30px;/* propriedade utilizada para dar o respiro/espaço entre os elementos */
+}
+#filho2 p{
+    text-shadow: 20px 15px 30px black;
+    margin-top: 270px;
+    color: white;
+    font-size: 30px;
+}
+#filho3 p{
+    text-shadow: 20px 15px 30px black;
+    margin-top: 270px;
+    color: white;
+    font-size: 30px;
+}
+#filho4 p{
+    text-shadow: 20px 15px 30px black;
+    margin-top: 270px;
+    color: white;
+    font-size: 30px;
+}
+#filho5 p{
+    text-shadow: 20px 15px 30px black;
+    margin-top: 270px;
+    color: white;
+    font-size: 30px;
+}
+#filho6 p{
+    text-shadow: 20px 15px 30px black;
+    margin-top: 270px;
+    color: white;
+    font-size: 30px;
 }
 #filho1{
     background-image: url(img/pizza1.png);
+    text-align: center;
 }
 #filho2{
     background-image: url(img/pizza2.jpg);
+    text-align: center;
 }
 #filho3{
     background-image: url(img/pizza3.jpg);
+    text-align: center;
 }
 #filho4{
     background-image: url(img/pizza4.jpg);
+    text-align: center;
 }
 #filho5{
     background-image: url(img/pizza5.jpg);
+    text-align: center;
 }
 #filho6{
     background-image: url(img/pizza6.jpg);
+    text-align: center;
 }
 #filho1:hover{
     transition: 1s;
-    width: 210px;
-    height: 290px;
+    width: 240px;
+    height: 310px;
+    transform: translate(0px, -30px);/* primeiro eixo X(horizontal), depos valor do eixo Y(vertical) */
 }
+
 #filho2:hover{
+    width: 240px;
+    transform: rotate(10deg);/* aqui trabalhamos com a rotaçao da caixa */
+    height: 310px;
     transition: 1s;
-    width: 210px;
-    height: 290px;
+
 }
 #filho3:hover{
     transition: 1s;
-    width: 210px;
-    height: 290px;
+   width: 240px;
+    height: 310px;
+     transform: scale(1.5, 1.5);/* trabalha com a scala de movimentaçao dos eixos X e Y */
 }
 #filho4:hover{
     transition: 1s;
-    width: 210px;
-    height: 290px;
+    width: 240px;
+    height: 310px;
+    transform: skew(5deg, -5deg);/* inclina um elemento ao longo dos eixos X e Y */
 }
 #filho5:hover{
     transition: 1s;
-    width: 210px;
-    height: 290px;
+    width: 240px;
+    height: 310px;
+   transform: translate(0px, -30px);
 }
 #filho6:hover{
     transition: 1s;
-    width: 210px;
-    height: 290px;
+    width: 240px;
+    height: 310px;
+    transform: translate(0px, -30px);
 }
 .bebidas {
     background-image: url(img/bebida.jpg);
