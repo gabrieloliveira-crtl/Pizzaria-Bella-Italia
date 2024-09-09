@@ -170,7 +170,7 @@ header ul li:hover{
     transition: 1s;
    width: 240px;
     height: 310px;
-     transform: scale(1.5, 1.5);/* trabalha com a scala de movimentaçao dos eixos X e Y */
+     transform: scale(1.1, 1.1);/* trabalha com a scala de movimentaçao dos eixos X e Y */
 }
 #filho4:hover{
     transition: 1s;
