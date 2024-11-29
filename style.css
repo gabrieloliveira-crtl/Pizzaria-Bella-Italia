@@ -156,12 +156,12 @@ header ul li:hover{
     transition: 1s;
     width: 240px;
     height: 310px;
-    transform: translate(0px, -30px);/* primeiro eixo X(horizontal), depos valor do eixo Y(vertical) */
+    transform: scale(1.1, 1.1);/* primeiro eixo X(horizontal), depos valor do eixo Y(vertical) */
 }
 
 #filho2:hover{
     width: 240px;
-    transform: rotate(10deg);/* aqui trabalhamos com a rotaçao da caixa */
+    transform: scale(1.1, 1.1);/* aqui trabalhamos com a rotaçao da caixa */
     height: 310px;
     transition: 1s;
 
@@ -176,19 +176,19 @@ header ul li:hover{
     transition: 1s;
     width: 240px;
     height: 310px;
-    transform: skew(5deg, -5deg);/* inclina um elemento ao longo dos eixos X e Y */
+    transform: scale(1.1, 1.1);/* inclina um elemento ao longo dos eixos X e Y */
 }
 #filho5:hover{
     transition: 1s;
     width: 240px;
     height: 310px;
-   transform: translate(0px, -30px);
+   transform: scale(1.1, 1.1);
 }
 #filho6:hover{
     transition: 1s;
     width: 240px;
     height: 310px;
-    transform: translate(0px, -30px);
+    transform: scale(1.1, 1.1);
 }
 .bebidas {
     background-image: url(img/bebida.jpg);
